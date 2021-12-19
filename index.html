@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "assets/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="icon" href="./assets/img/logo.png" type="image/gif" sizes="16x16">
+    <link rel = "stylesheet" href = "./assets/css/grid.css">
+    <link rel = "stylesheet" href = "./assets/css/style.css">
+    <link rel = "stylesheet" href = "./assets/css/responsive.css">
+    <title>CAFENA</title>
+</head>
+<body>
+    <main>
+        <!-- Header start -->
+        <header class="header">
+            <a href="#" class="header__logo">
+                <img src="./assets/img/logo.png" alt="Logo">
+            </a>
+            <nav class="mobile-navbar">
+                <a href="#slider" class="mobile-navbar__item">Home</a>
+                <a href="#about" class="mobile-navbar__item">About</a>
+                <a href="#menu" class="mobile-navbar__item">Menu</a>
+                <a href="#products" class="mobile-navbar__item">Products</a>
+                <a href="#reviews" class="mobile-navbar__item">Review</a>
+                <a href="#contact" class="mobile-navbar__item">Contact</a>
+                <a href="#blogs" class="mobile-navbar__item">Blogs</a>
+            </nav>
+            <nav class="header-navbar">
+                <a href="#slider" class="header-navbar__item">Home</a>
+                <a href="#about" class="header-navbar__item">About</a>
+                <a href="#menu" class="header-navbar__item">Menu</a>
+                <a href="#products" class="header-navbar__item">Products</a>
+                <a href="#reviews" class="header-navbar__item">Review</a>
+                <a href="#contact" class="header-navbar__item">Contact</a>
+                <a href="#blogs" class="header-navbar__item">Blogs</a>
+            </nav>
+            <nav class="header-icons">
+                <div class="header-icons__item fas fa-search" id="search-btn"></div>
+                <div class="header-icons__item fas fa-shopping-cart" id="cart-btn"></div>
+                <div class="header-icons__item fas fa-bars" id="menu-btn"></div>
+            </nav>
+            <div class="header-search-form">
+                <input class = "header-search-form__typing" type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="header-search-form__icon fas fa-search"></label>
+            </div>
+            <div class="header-cart">
+                <div class="header-cart__item">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/img/cart-item-1.png" alt="" class="header-cart__img">
+                    <div class="header-cart__info">
+                        <h3 class="header-cart__info-name">Cart item 1</h3>
+                        <p class="header-cart__info-price">$15.99</p>
+                    </div>
+                </div>
+                <div class="header-cart__item">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/img/cart-item-2.png" alt="" class="header-cart__img">
+                    <div class="header-cart__info">
+                        <h3 class="header-cart__info-name">Cart item 2</h3>
+                        <p class="header-cart__info-price">$15.99</p>
+                    </div>
+                </div>
+                <div class="header-cart__item">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/img/cart-item-3.png" alt="" class="header-cart__img">
+                    <div class="header-cart__info">
+                        <h3 class="header-cart__info-name">Cart item 3</h3>
+                        <p class="header-cart__info-price">$15.99</p>
+                    </div>
+                </div>
+                <div class="header-cart__item">
+                    <span class="fas fa-times"></span>
+                    <img src="./assets/img/cart-item-4.png" alt="" class="header-cart__img">
+                    <div class="header-cart__info">
+                        <h3 class="header-cart__info-name">Cart item 4</h3>
+                        <p class="header-cart__info-price">$15.99</p>
+                    </div>
+                </div>
+                <a href="#" class="header-cart__btn btn">checkout now</a>
+            </div>
+        </header>
+        <!-- Header end -->
+        <!-- Slider start -->
+        <section class = "slider" id = "slider">
+            <div class="slider-content">
+                <h3 class="slider-content__head">fresh coffee in the morning</h3>
+                <p class="slider-content__comment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+                <a href="#" class="btn slider-content__link">Get Yours Now</a>
+            </div>
+        </section>
+        <!-- Slider end -->
+        <!-- about start -->
+        <section class="about" id = "about">
+            <div class="about-content grid wide">
+                <h3 class="content__head">
+                    <span>about</span> us
+                </h3>
+                <div class="row">
+                    <div class="about-content__decorate col l-6">
+                        <img src="./assets/img/about-img.jpeg" alt="" class="about-content__img">
+                    </div>
+                    <div class="about-content__text col l-6">
+                        <h3 class="text__head">what make ours coffee specail?</h3>
+                        <p class="text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+                        <p class="text__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+                        <a href="#" class="btn">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about end -->
+        <!-- menu start -->
+        <section class="menu" id= "menu">
+            <div class="menu-content grid wide">
+                <h3 class="content__head content__head-menu">
+                    Our <span>menu</span>
+                </h3>
+                <div class="row">
+                    <div class="col l-4  m-6 c-12 ">
+                        <div class="menu-content__item">
+                            <img src="./assets/img/menu-1.png" alt="" class="menu-content__img">
+                            <h3 class="menu-content__name">Tasty and heathy</h3>
+                            <div class="menu-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <div class="menu-content__item">
+                            <img src="./assets/img/menu-2.png" alt="" class="menu-content__img">
+                            <h3 class="menu-content__name">Tasty and heathy</h3>
+                            <div class="menu-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <div class="menu-content__item">
+                            <img src="./assets/img/menu-3.png" alt="" class="menu-content__img">
+                            <h3 class="menu-content__name">Tasty and heathy</h3>
+                            <div class="menu-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <div class="menu-content__item">
+                            <img src="./assets/img/menu-4.png" alt="" class="menu-content__img">
+                            <h3 class="menu-content__name">Tasty and heathy</h3>
+                            <div class="menu-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <div class="menu-content__item">
+                            <img src="./assets/img/menu-5.png" alt="" class="menu-content__img">
+                            <h3 class="menu-content__name">Tasty and heathy</h3>
+                            <div class="menu-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12 ">
+                        <div class="menu-content__item">
+                            <img src="./assets/img/menu-6.png" alt="" class="menu-content__img">
+                            <h3 class="menu-content__name">Tasty and heathy</h3>
+                            <div class="menu-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <!-- menu end -->
+        <!-- products start-->
+        <section class = "products" id = "products">
+            <div class="prodcuts-content grid wide">
+                <h3 class="content__head">
+                    <span> Our </span> products
+                </h3>
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="prodcuts-content__item">
+                            <div class="products-content__icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="products-content__img">
+                                <img src="./assets/img/product-1.png" alt="Product1">
+                            </div>
+                            <h3 class="products-content__name">Fresh coffee</h3>
+                            <div class="products-content__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="products-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="prodcuts-content__item">
+                            <div class="products-content__icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="products-content__img">
+                                <img src="./assets/img/product-2.png" alt="Product1">
+                            </div>
+                            <h3 class="products-content__name">Fresh coffee</h3>
+                            <div class="products-content__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="products-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="prodcuts-content__item">
+                            <div class="products-content__icons">
+                                <a href="#" class="fas fa-shopping-cart"></a>
+                                <a href="#" class="fas fa-heart"></a>
+                                <a href="#" class="fas fa-eye"></a>
+                            </div>
+                            <div class="products-content__img">
+                                <img src="./assets/img/product-3.png" alt="Product1">
+                            </div>
+                            <h3 class="products-content__name">Fresh coffee</h3>
+                            <div class="products-content__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="products-content__price">
+                                $15.99 <span>$20.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- products end -->
+        <!-- review start -->
+        <section class="reviews" id="reviews">
+            <div class="reviews-content">
+                <h3 class="content__head">
+                    customer's <span>review</span> 
+                </h3>
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="reviews-content__item">
+                            <img src="./assets/img/quote-img.png" alt="" class="reviews-content__img">
+                            <p class="reviews-content__comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            <img src="./assets/img/pic-1.png" alt="User 1" class="reviews-content__avatar">
+                            <p class="reviews-content__name">John Doe</p>
+                            <div class="reviews-content__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="reviews-content__item">
+                            <img src="./assets/img/quote-img.png" alt="" class="reviews-content__img">
+                            <p class="reviews-content__comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            <img src="./assets/img/pic-2.png" alt="User 1" class="reviews-content__avatar">
+                            <p class="reviews-content__name">John Doe</p>
+                            <div class="reviews-content__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="reviews-content__item">
+                            <img src="./assets/img/quote-img.png" alt="" class="reviews-content__img">
+                            <p class="reviews-content__comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+                            <img src="./assets/img/pic-3.png" alt="User 1" class="reviews-content__avatar">
+                            <p class="reviews-content__name">John Doe</p>
+                            <div class="reviews-content__stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- review end -->
+        <!-- start contact -->
+        <section class="contact" id="contact">
+            <div class="contact-content grid wide">
+                <h3 class="content__head">
+                    <span>contact</span> us
+                </h3>
+                <div class="row contact-bk">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="contact-map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <form action="" class="contact__form">
+                            <h3 class="contact__form-head">GET IN TOUCH</h3>
+                            <div class="contact__form-box">
+                                <span class="form-box__icon fas fa-user"></span>
+                                <input type="text" class="contact__form-input" placeholder="name">
+                            </div>
+                            <div class="contact__form-box">
+                                <span class="form-box__icon fas fa-envelope"></span>
+                                <input type="email" class="contact__form-input" placeholder="email">
+                            </div>
+                            <div class="contact__form-box">
+                                <span class="form-box__icon fas fa-phone"></span>
+                                <input type="text" class="contact__form-input" placeholder="phone">
+                            </div>
+                            <input type="submit" class="btn form-box__btn" value="contact now">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+        <!-- start contact -->
+        <section class="blogs" id = "blogs">
+            <div class="blogs-content grid wide">
+                <h3 class="content__head">
+                    our <span> blogs </span>
+                </h3>
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="blogs-content__item">
+                            <div class="blogs-content-img">
+                                <img src="./assets/img/blog-1.jpeg" alt="Anh minh hoa" class="content__img">
+                            </div>
+                            <div class="blogs-content-box">
+                                <a href="#" class="content-box__head">tasty and refreshing coffee</a>
+                                <span class = "content-box__author">by admin / 21st may, 2021</span>
+                                <p class="content-box__des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                                <a href="" class="btn">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="blogs-content__item">
+                            <div class="blogs-content-img">
+                                <img src="./assets/img/blog-2.jpeg" alt="Anh minh hoa" class="content__img">
+                            </div>
+                            <div class="blogs-content-box">
+                                <a href="#" class="content-box__head">tasty and refreshing coffee</a>
+                                <span class = "content-box__author">by admin / 21st may, 2021</span>
+                                <p class="content-box__des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                                <a href="" class="btn">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <div class="blogs-content__item">
+                            <div class="blogs-content-img">
+                                <img src="./assets/img/blog-3.jpeg" alt="Anh minh hoa" class="content__img">
+                            </div>
+                            <div class="blogs-content-box">
+                                <a href="#" class="content-box__head">tasty and refreshing coffee</a>
+                                <span class = "content-box__author">by admin / 21st may, 2021</span>
+                                <p class="content-box__des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                                <a href="" class="btn">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+        <!-- footer start -->
+        <section class = "footer">
+            <div class="footer-social">
+                <a href="#" class="footer-social__item fab fa-facebook-f"></a>
+                <a href="#" class="footer-social__item fab fa-twitter"></a>
+                <a href="#" class="footer-social__item fab fa-instagram"></a>
+                <a href="#" class="footer-social__item fab fa-linkedin"></a>
+                <a href="#" class="footer-social__item fab fa-pinterest"></a>
+            </div>
+            <div class="footer-link">
+                <a href="#" class = "footer-link__item">home</a>
+                <a href="#" class = "footer-link__item">about</a>
+                <a href="#" class = "footer-link__item">menu</a>
+                <a href="#" class = "footer-link__item">products</a>
+                <a href="#" class = "footer-link__item">review</a>
+                <a href="#" class = "footer-link__item">contact</a>
+                <a href="#" class = "footer-link__item">blogs</a>
+            </div>
+            <div class="footer-privacy">
+                clone by <span>Hoang Tuan Luong</span> | all rights reserved
+            </div>
+        </section>
+    </main>
+    
+    
+</body>
+<script src = "assets/js/main.js"></script>
+</html>
